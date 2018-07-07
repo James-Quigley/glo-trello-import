@@ -38,15 +38,14 @@ let gloAxios = null;
 export default {
     name: "app",
     data: () => ({
-        trelloApiKey: "fbd5d818e63312d828e59163e199f626",
-        trelloToken:
-            "c2dcc93df2ea37e1af5c78f61984500c69459781becc9348a9c7437f0223e29f",
+        trelloApiKey: "",
+        trelloToken: "",
         trelloBoards: [],
         trelloCards: [],
         trelloColumns: [],
         trelloLabels: {},
         selectedBoard: "",
-        gloToken: "1fb2edb6009cae67234fea97240e4e4b46a2d5aa",
+        gloToken: "",
         gloBoard: null,
         gloColumns: {},
         gloLabels: {},
