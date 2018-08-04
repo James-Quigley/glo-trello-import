@@ -121,8 +121,10 @@
                                             <p>We ask for your credentials for both services so that we can make API calls on
                                                 your behalf, automating the copy process. This application is entirely client
                                                 side, meaning the only time the credentials leave this page is when they
-                                                are used to make those API calls. Additionally, the code is open source on
-                                                <a class="md-accent" href="https://github.com/James-Quigley/glo-trello-import">GitHub</a>.</p>
+                                                are used to make those API calls. 
+                                                <!-- Additionally, the code is open source on
+                                                <a class="md-accent" href="https://github.com/James-Quigley/glo-trello-import">GitHub</a>. -->
+                                                </p>
                                         </md-card-content>
                                     </md-card>
                                 </div>
