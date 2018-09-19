@@ -8,7 +8,7 @@
 
         <div>
 
-            <div class="md-layout md-gutter md-alignment-center" style="min-height:55px;margin-top:0px;">
+            <div class="md-layout md-alignment-center" style="min-height:5px;margin-top:0px;">
                 <div class="md-layout-item">
                     <md-progress-bar id="progress" class="md-accent" md-mode="indeterminate" style="display:none"></md-progress-bar>
                 </div>
@@ -18,7 +18,7 @@
                 <div class="md-layout-item md-small-size-100 md-xsmall-size-100">
                     <md-card class="md-primary">
                         <md-card-header>
-                            <div class="md-title" style="color: #64dd17;">Trello Credentials</div>
+                            <div class="md-title">Trello Credentials</div>
                         </md-card-header>
 
                         <md-card-content>
@@ -45,7 +45,7 @@
                 <div class="md-layout-item md-small-size-100 md-xsmall-size-100">
                     <md-card class="md-primary">
                         <md-card-header>
-                            <div class="md-title" style="color: #64dd17;">Glo Credentials</div>
+                            <div class="md-title">Glo Credentials</div>
                         </md-card-header>
 
                         <md-card-content>
@@ -79,79 +79,70 @@
 
             <div class="md-layout md-gutter">
                 <div class="md-layout-item">
-                    <md-card class="md-primary">
-                        <md-card-header>
-                            <div class="md-title" style="color: #64dd17;">Details</div>
-                        </md-card-header>
-                        <md-card-content>
-                            <div class="md-layout md-gutter">
-                                <div style="margin-top:5px;" class="md-layout-item md-xlarge-size-100 md-large-size-100 md-medium-size-100 md-small-size-100 md-xsmall-size-100">
-                                    <md-card>
-                                        <md-card-header>
-                                            <md-icon class="md-accent">transform</md-icon>
-                                            <span class="md-title"> Summary</span>
-                                        </md-card-header>
-                                        <md-card-content>
-                                            <p>This application will take an existing
-                                                <a class="md-accent" href="https://trello.com">Trello</a> board and import it into
-                                                <a class="md-accent" href="https://app.gitkraken.com/glo">GitKraken Glo</a>! Note that Glo is under active development, and therefore
-                                                not all parts of a Trello board may be copied 1:1.</p>
-                                        </md-card-content>
-                                    </md-card>
-                                </div>
-                                <div style="margin-top:5px;" class="md-layout-item md-xlarge-size-100 md-large-size-100 md-medium-size-100 md-small-size-100 md-xsmall-size-100">
-                                    <md-card>
-                                        <md-card-header>
-                                            <md-icon class="md-accent">sync_disabled</md-icon>
-                                            <span class="md-title"> One-Time Sync</span>
-                                        </md-card-header>
-                                        <md-card-content>
-                                            <p>This application is only a one-time import. This will not sync your items back
-                                                and forth between Trello and Glo.</p>
-                                        </md-card-content>
-                                    </md-card>
-                                </div>
-                                <div style="margin-top:5px;" class="md-layout-item md-xlarge-size-100 md-large-size-100 md-medium-size-100 md-small-size-100 md-xsmall-size-100">
-                                    <md-card>
-                                        <md-card-header>
-                                            <md-icon class="md-accent">security</md-icon>
-                                            <span class="md-title"> Security</span>
-                                        </md-card-header>
-                                        <md-card-content>
-                                            <p>We ask for your credentials for both services so that we can make API calls on
-                                                your behalf, automating the copy process. This application is entirely client
-                                                side, meaning the only time the credentials leave this page is when they
-                                                are used to make those API calls. 
-                                                <!-- Additionally, the code is open source on
-                                                <a class="md-accent" href="https://github.com/James-Quigley/glo-trello-import">GitHub</a>. -->
-                                                </p>
-                                        </md-card-content>
-                                    </md-card>
-                                </div>
-                                <div style="margin-top:5px;" class="md-layout-item md-xlarge-size-100 md-large-size-100 md-medium-size-100 md-small-size-100 md-xsmall-size-100">
-                                    <md-card>
-                                        <md-card-header>
-                                            <md-icon class="md-accent">list</md-icon>
-                                            <span class="md-title"> Copied Items:</span>
-                                        </md-card-header>
-                                        <md-card-content>
-                                            <md-list>
-                                                <md-list-item>Board Name</md-list-item>
-                                                <md-list-item>Board Columns</md-list-item>
-                                                <md-list-item>Labels</md-list-item>
-                                                <md-list-item>Card Name</md-list-item>
-                                                <md-list-item>Card Description</md-list-item>
-                                                <md-list-item>Card Tasks</md-list-item>
-                                            </md-list>
-                                        </md-card-content>
-                                    </md-card>
-                                </div>
-                            </div>
-                        </md-card-content>
-                        <md-card-actions>
-
-                        </md-card-actions>
-                    </md-card>
+                    <div class="md-title">Details</div>
+                    <div class="md-layout md-gutter">
+                        <div style="margin-top:5px;" class="md-layout-item md-xlarge-size-100 md-large-size-100 md-medium-size-100 md-small-size-100 md-xsmall-size-100">
+                            <md-card>
+                                <md-card-header>
+                                    <md-icon class="md-accent">transform</md-icon>
+                                    <span class="md-title"> Summary</span>
+                                </md-card-header>
+                                <md-card-content>
+                                    <p>This application will take an existing
+                                        <a class="md-accent" href="https://trello.com">Trello</a> board and import it into
+                                        <a class="md-accent" href="https://app.gitkraken.com/glo">GitKraken Glo</a>! Note that Glo is under active development, and therefore
+                                        not all parts of a Trello board may be copied 1:1.</p>
+                                </md-card-content>
+                            </md-card>
+                        </div>
+                        <div style="margin-top:5px;" class="md-layout-item md-xlarge-size-100 md-large-size-100 md-medium-size-100 md-small-size-100 md-xsmall-size-100">
+                            <md-card>
+                                <md-card-header>
+                                    <md-icon class="md-accent">sync_disabled</md-icon>
+                                    <span class="md-title"> One-Time Sync</span>
+                                </md-card-header>
+                                <md-card-content>
+                                    <p>This application is only a one-time import. This will not sync your items back
+                                        and forth between Trello and Glo.</p>
+                                </md-card-content>
+                            </md-card>
+                        </div>
+                        <div style="margin-top:5px;" class="md-layout-item md-xlarge-size-100 md-large-size-100 md-medium-size-100 md-small-size-100 md-xsmall-size-100">
+                            <md-card>
+                                <md-card-header>
+                                    <md-icon class="md-accent">security</md-icon>
+                                    <span class="md-title"> Security</span>
+                                </md-card-header>
+                                <md-card-content>
+                                    <p>We ask for your credentials for both services so that we can make API calls on
+                                        your behalf, automating the copy process. This application is entirely client
+                                        side, meaning the only time the credentials leave this page is when they
+                                        are used to make those API calls.
+                                        <!-- Additionally, the code is open source on
+                                        <a class="md-accent" href="https://github.com/James-Quigley/glo-trello-import">GitHub</a>. -->
+                                        </p>
+                                </md-card-content>
+                            </md-card>
+                        </div>
+                        <div style="margin-top:5px;" class="md-layout-item md-xlarge-size-100 md-large-size-100 md-medium-size-100 md-small-size-100 md-xsmall-size-100">
+                            <md-card>
+                                <md-card-header>
+                                    <md-icon class="md-accent">list</md-icon>
+                                    <span class="md-title"> Copied Items:</span>
+                                </md-card-header>
+                                <md-card-content>
+                                    <md-list>
+                                        <md-list-item>Board Name</md-list-item>
+                                        <md-list-item>Board Columns</md-list-item>
+                                        <md-list-item>Labels</md-list-item>
+                                        <md-list-item>Card Name</md-list-item>
+                                        <md-list-item>Card Description</md-list-item>
+                                        <md-list-item>Card Tasks</md-list-item>
+                                    </md-list>
+                                </md-card-content>
+                            </md-card>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
