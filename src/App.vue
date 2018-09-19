@@ -8,7 +8,7 @@
 
         <div>
 
-            <div class="md-layout md-alignment-center" style="min-height:5px;margin-top:0px;">
+            <div class="md-layout md-alignment-center" style="position:absolute;top:14px;width:100%;">
                 <div class="md-layout-item">
                     <md-progress-bar id="progress" class="md-accent" md-mode="indeterminate" style="display:none"></md-progress-bar>
                 </div>
