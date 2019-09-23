@@ -227,7 +227,7 @@ export default {
             )[0].name;
 
             gloAxios = axios.create({
-                baseURL: "https://app.gitkraken.com/api/glo/",
+                baseURL: "https://gloapi.gitkraken.com/v1/glo/",
                 headers: {
                     authorization: this.gloToken
                 }
