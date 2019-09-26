@@ -278,9 +278,7 @@ export default {
                         }
                     );
                     this.gloLabels[response.data.id] = response.data;
-                    this.labelMappings[label.id] = response.data.labels.filter(
-                        l => l.name == label.name
-                    )[0];
+                    this.labelMappings[label.id] = response.data;
                 }
             }
             console.log("Created labels", this.gloLabels);
