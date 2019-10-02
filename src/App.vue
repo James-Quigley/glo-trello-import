@@ -227,7 +227,7 @@ export default {
             )[0].name;
 
             gloAxios = axios.create({
-                baseURL: "https://app.gitkraken.com/api/glo/",
+                baseURL: "https://gloapi.gitkraken.com/v1/glo/",
                 headers: {
                     authorization: this.gloToken
                 }
@@ -278,9 +278,7 @@ export default {
                         }
                     );
                     this.gloLabels[response.data.id] = response.data;
-                    this.labelMappings[label.id] = response.data.labels.filter(
-                        l => l.name == label.name
-                    )[0];
+                    this.labelMappings[label.id] = response.data;
                 }
             }
             console.log("Created labels", this.gloLabels);
