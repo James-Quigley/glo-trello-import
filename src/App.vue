@@ -391,7 +391,8 @@ export default {
                         column_id,
                         labels,
                         name: card.name,
-                        position
+                        position,
+                        due_date: card.due
                     }
                 );
 
