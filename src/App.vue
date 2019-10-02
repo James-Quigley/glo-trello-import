@@ -367,6 +367,7 @@ export default {
                     id: this.labelMappings[labelId].id,
                     name: this.labelMappings[labelId].name
                 }));
+                let due_date = card.due;
 
                 if (column_count[column_id] == null) {
                     column_count[column_id] = 0;
@@ -391,7 +392,8 @@ export default {
                         column_id,
                         labels,
                         name: card.name,
-                        position
+                        position,
+                        due_date
                     }
                 );
 
